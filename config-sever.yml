@@ -2,24 +2,31 @@ msaconfig:
   greeting: "hello"
   
 ---
+
 spring:
   profiles: local
   
 msaconfig:
    greeting: "welcome to local server"
+   
 ---
+
 spring:
   profiles: dev
   
 msaconfig:
   greeting: "welcome to dev server"
+  
 ---
+
 spring:
    profiles: qa
   
 msaconfig:
   greeting: "welcome to qa server"
+  
 ---
+
 spring:
   profiles: live
   
